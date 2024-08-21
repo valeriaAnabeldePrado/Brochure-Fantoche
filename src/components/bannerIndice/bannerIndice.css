@@ -1,0 +1,25 @@
+.cont-indice {
+  background: url("/img1.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13% 5%;
+}
+.cont-indice-rectangulo {
+  background-color: rgba(248, 250, 252, 0.826);
+  border-radius: 30px;
+  padding: 12% 8%;
+  width: 70%;
+  align-content: center;
+}
+.letter-indice {
+  font-size: 2.5em;
+  margin-bottom: 5%;
+  color: #4a2406;
+}
+ul li:nth-child(3) {
+  margin-bottom: 0;
+}
+.conten-banner {
+  background: url("/banner.jpg") center/ cover no-repeat;
+}
