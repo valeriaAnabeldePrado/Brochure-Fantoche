@@ -3,23 +3,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 13% 5%;
+  padding: 13% 3%;
 }
 .cont-indice-rectangulo {
   background-color: rgba(248, 250, 252, 0.826);
   border-radius: 30px;
-  padding: 12% 8%;
-  width: 70%;
+  padding: 12% 5%;
+  width: 80%;
   align-content: center;
 }
 .letter-indice {
   font-size: 2.5em;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   color: #4a2406;
 }
-ul li:nth-child(3) {
-  margin-bottom: 0;
-}
+
 .conten-banner {
   background: url("/banner.jpg") center/ cover no-repeat;
+}
+.line {
+  height: 3px;
+  margin-bottom: 5%;
+  background-color: #4a2406;
+}
+.cont-indice-rectangulo div:last-child .line {
+  margin-bottom: 0;
+}
+.imagen-ab {
+  position: absolute;
+  right: 5%;
+  transform: translateY(150px);
 }
