@@ -1,0 +1,22 @@
+.bg {
+  background-image: url("../app/assets/bg-alfa.jpg");
+  background-position: var(--bg-position);
+
+  background-repeat: no-repeat;
+}
+
+.bg-top {
+  --bg-position: top;
+}
+
+.bg-bottom {
+  --bg-position: bottom;
+}
+
+.bg-left {
+  --bg-position: left;
+}
+
+.bg-right {
+  --bg-position: right;
+}
